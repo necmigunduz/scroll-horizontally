@@ -55,3 +55,30 @@
   margin: 0.05rem;
 }
 
+.products {
+  width: 600px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  white-space: nowrap;
+  scrollbar-3dlight-color: blue;
+  margin-left: 150px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.product {
+  height: 500px;
+  margin-left: 40px;
+  display: inline-block;
+  width: 2500px;
+  margin-bottom: -30px;
+}
+
+.product img {
+  width: 240px;
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
