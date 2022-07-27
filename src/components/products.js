@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useDraggable } from "react-use-draggable-scroll";
 import Product from "./product";
 import rightI from "../assets/right-I.png";
 import rightII from "../assets/right-II.png";
@@ -23,9 +24,15 @@ const products = [
 ];
 
 const Products = () => {
+  const ref = useRef()
+  const { events } = useDraggable(ref)
   return (
     <>
-      <div className="products d-flex">
+      <div 
+        className="products d-flex"
+        {...events}
+        ref={ref}
+      >
         {products.map((product) => {
           return (
             <Product

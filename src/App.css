@@ -57,17 +57,17 @@
 
 .products {
   width: 600px;
+  height: 450px;
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: none;
   white-space: nowrap;
   scrollbar-3dlight-color: blue;
   margin-left: 150px;
-  -webkit-overflow-scrolling: touch;
 }
 
 .product {
-  height: 500px;
+  height: 400px;
   margin-left: 40px;
   display: inline-block;
   width: 2500px;
