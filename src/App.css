@@ -100,7 +100,7 @@
     z-index: 0;
   }
   .right {
-    margin-top: -300px;
+    margin-top: -330px;
     margin-left: -138px;
     z-index: 20;
   }
@@ -116,6 +116,7 @@
     font-weight: 900;
     margin-bottom: 150px;
   }
+
   .products-header {
     width: 350px;
     color: white;
@@ -124,6 +125,15 @@
     line-height: 80px;
     border-bottom: 1px white solid;
     border-bottom-width: 5px;
+  }
+  .product img {
+    width: 450px;
+    height: auto;
+  }
+  .products {
+    width: 900px;
+    height: 1200px;
+    margin-left: 10%;
   }
   .text-body {
     display: none;
