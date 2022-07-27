@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap');
+
+:root {
+    --header-style-bold: 'Chivo', sans-serif;
+    --small-text-color: lightgray;
+  }
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.text-header {
+  font-family: var(--header-style-bold);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-body {
+  color: rgb(148, 139, 139) !important;
+  font-weight: 300;
+}
+
+.products-header {
+  font-size: 12px;
+  border-bottom: 1px solid black;
+  border-bottom-style: 2px;
+  width: 23%;
+  line-height: 25px;
+}
+
+.left {
+  z-index: 9999;
+  width: 35%;
+}
+
+.right {
+  margin-left: 35px;
+  padding-left: 180px;
+  margin-top: 20px;
 }
