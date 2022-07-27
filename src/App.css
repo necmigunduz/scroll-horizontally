@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 375px) {
   body {
-    max-height: 550px;
+    max-height: 300px;
   }
   .App {
     display: flex;
@@ -137,5 +137,22 @@
   }
   .text-body {
     display: none;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .brand-line {
+    font-size: 25px;
+    font-weight: 600 !important;
+    max-width: 100px;
+  }
+  .price-line {
+    font-size: 25px;
+  }
+  .circle {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 4px;
   }
 }
