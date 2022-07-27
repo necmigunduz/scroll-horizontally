@@ -82,3 +82,50 @@
 ::-webkit-scrollbar { 
   display: none; 
 }
+
+.mobile-text {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-height: 550px;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    width: 150%;
+    z-index: 0;
+  }
+  .right {
+    margin-top: -300px;
+    margin-left: -138px;
+    z-index: 20;
+  }
+  .full-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: block;
+    width: 800px;
+    color: white;
+    font-size: 75px;
+    font-weight: 900;
+    margin-bottom: 150px;
+  }
+  .products-header {
+    width: 350px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 80px;
+    border-bottom: 1px white solid;
+    border-bottom-width: 5px;
+  }
+  .text-body {
+    display: none;
+  }
+}
