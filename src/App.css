@@ -37,3 +37,21 @@
   padding-left: 180px;
   margin-top: 20px;
 }
+
+.brand-line {
+  font-size: 13px;
+  word-spacing: 2px;
+  font-weight: 350 !important;
+}
+
+.price-line {
+  font-size: 15px;
+}
+
+.bottom {
+  width: 90%;
+}
+.circle {
+  margin: 0.05rem;
+}
+
