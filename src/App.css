@@ -87,10 +87,7 @@
   display: none;
 }
 
-@media screen and (max-width: 375px) {
-  body {
-    max-height: 300px;
-  }
+@media screen and (max-width: 376px) {
   .App {
     display: flex;
     flex-direction: column;
@@ -132,7 +129,7 @@
   }
   .products {
     width: 900px;
-    height: 1200px;
+    height: 800px;
     margin-left: 10%;
   }
   .text-body {

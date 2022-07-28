@@ -36,6 +36,7 @@ const Products = () => {
         {products.map((product) => {
           return (
             <Product
+              key={products.indexOf(product)}
               source={product.source}
               price={product.price}
               brand={product.brand}
