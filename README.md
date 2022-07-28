@@ -2,8 +2,10 @@
 
 This is a simple e-commerce page where a user can scroll products horizontally on the right side of the page. This page is also developed for mobile screen (376px - 677px). At the mobile screen, products move under the main image.
 
-#### Large page screenshot: ![screenshot](https://github.com/necmigunduz/scroll-horizontally/blob/master/large_screen.png)
-#### Mobile page screenshot: ![screenshot](https://github.com/necmigunduz/scroll-horizontally/blob/master/mobile.png)
+#### Large page screenshot: 
+![screenshot](https://github.com/necmigunduz/scroll-horizontally/blob/master/large_screen.png)
+#### Mobile page screenshot: 
+![screenshot](https://github.com/necmigunduz/scroll-horizontally/blob/master/mobile.png)
 
 ## Built With
 
